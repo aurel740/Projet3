@@ -1,0 +1,117 @@
+.modale-wrapper1 {
+	position: relative;
+	margin: auto;
+	flex-direction: column;
+	border-radius: 20px;
+	background-color: white;
+    max-width: 800px;
+	padding: 20px 0px;
+    align-items: center;
+}
+
+.exit {
+	width: 25px;
+	border: none;
+	background-color: white;
+	cursor: pointer;
+	margin-right: 30px;
+	margin-top: 10px;
+}
+
+.tete-pop-up {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	float: inline-end;
+}
+
+ .contenair-image{
+	display: flex;
+	flex-direction: column;
+	max-width: 150px;
+} 
+
+.photo {
+    object-fit: cover;
+	width: 100%;
+	padding: 0px 10px;
+	height: 180PX;
+    }
+
+.editer-btn{
+	width: 35%;
+	border: none;
+	background-color: white;
+	cursor: pointer;
+	padding-bottom: 10px;
+}
+
+.gallery-modal {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 30px 0px;
+	margin: 0px 30px;
+	border-bottom: 1px solid gray;
+	justify-content: center;
+} 
+
+ .gallery-modal img {
+	height: 200px;
+}
+
+.btn-envoie {
+	margin: 40px 0px 20px 0px;
+	padding: 10px 0px;
+	cursor: pointer;
+} 
+
+.btn-envoie:hover{
+	background-color: #09473c;
+}
+
+.btn-icone-trash , .btn-icone-arrow{
+	position: absolute;
+}  
+
+.btn-icone-arrow{
+	
+	margin-left: 80px;
+}
+.btn-icone-trash{
+	
+	margin-left: 110px;
+}
+
+.fa-trash-can , .fa-arrows-up-down-left-right{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 5px;
+    position: absolute;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    }
+
+    .btn-icone-trash input,.btn-icone-arrow input {
+        width: 25px;
+        margin-top: 5px;
+        height: 25px;
+        border-radius: 5px;
+        background: none;
+        position: relative;
+        cursor: pointer;
+        opacity: 0;
+        
+    }
+
+    #supp-galerie {
+        color: red;
+        background-color: white;
+        border: none;
+        cursor: pointer;
+		margin-bottom: 10px;
+    } 
+    

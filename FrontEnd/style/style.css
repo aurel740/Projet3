@@ -1,0 +1,152 @@
+.mode-edition{
+	display: none;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+}
+.mode-edition i {
+	font-size:13px;
+}
+
+.mode-edition button {
+	background-color: white;
+	border-radius: 15px;
+	padding: 8px 15px;
+	margin: 0px 15px;
+	font-family: "Work Sans",sans-serif;
+	border: white;
+}
+
+
+#introduction {
+	display: flex;
+	align-items: center;
+}
+#introduction figure {
+	flex: 1
+}
+#introduction img {
+	display: block;
+	margin: auto;
+	width: 80%;
+}
+
+#introduction article {
+	flex: 1;
+}
+#introduction h2 {
+	margin-bottom: 1em;
+}
+
+#introduction p {
+	margin-bottom: 0.5em;
+}
+
+.modifier{
+	display: none;
+	border: none;
+	background-color: white;
+	font-family: 'Work Sans',sans-serif;
+	font-size: 10px;
+	padding-bottom: 20px;
+	cursor: pointer;
+	font-weight: 400;
+}
+
+.btn1 {
+	margin-left: 55px;
+	margin-top: 10px;
+}
+
+#portfolio h2 {
+	text-align: center;
+	margin-bottom: 1em;
+}
+#portfolio .btn-filtres {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 35px;
+}
+
+#portfolio .btn-filtres button {
+	background-color: white;
+	border-radius: 20px;
+	border: 1.5px solid #1D6154;
+	font-family: 'Syne',sans-serif;
+	padding: 10px 25px;
+	color: #1D6154;
+	margin: 0px 10px;
+}
+
+#portfolio .btn-filtres button:hover,#portfolio .btn-filtres button:active {
+	background-color: #1D6154;
+	color: white;
+}
+
+.projetTitre {
+	display: flex;
+	justify-content: center;
+	margin-left: 10%;
+	align-items: center;
+}
+
+.projetTitre h2 {
+	margin-right:25px;
+}
+
+.gallery {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+}
+
+.gallery img {
+	width: 100%;
+	object-fit: cover;
+	max-width: 360px;
+	height: 480px;
+}
+
+figure img {
+	margin-bottom: 5px;
+}
+
+#contact {
+	width: 50%;
+margin: auto;
+}
+#contact > * {
+	text-align: center;
+
+}
+#contact h2{
+	margin-bottom: 20px;
+}
+#contact form {
+	text-align: left;
+	margin-top:30px;
+	display: flex;
+	flex-direction: column;
+}
+
+#contact input {
+	height: 50px;
+	font-size: 1.2em;
+	border: none;
+	box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.09);
+}
+#contact label {
+	margin: 2em 0em 1em 0em;
+}
+#contact textarea {
+	border: none;
+	box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.09);
+}
